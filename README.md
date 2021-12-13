@@ -65,6 +65,9 @@ npx projen deploy
 }}]
 ```
 
+## Conclusion
+image, video 분석 서비스를 구현하기 위해 Data Scienist 를 고용하여 ML 환경을 구축할 필요없이 AWS Rekognition 서비스를 이용하여 안면인식, 라벨링, 성인 컨텐츠 확인, 개인 보호 장비 착용 여부 등의 ML 서비스를 간단하게 구현할 수 있습니다. 
+
 ## Clean Up
 Run "npx projen destroy" to destroy stack
 
