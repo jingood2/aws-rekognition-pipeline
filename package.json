@@ -25,7 +25,7 @@
     "@types/node": "^14.17.0",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk": "^1.129.0",
+    "aws-cdk": "^1.134.0",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^2.5.0",
@@ -40,8 +40,22 @@
     "typescript": "^4.5.2"
   },
   "dependencies": {
-    "@aws-cdk/assert": "^1.129.0",
-    "@aws-cdk/core": "^1.129.0"
+    "@aws-cdk/assert": "^1.134.0",
+    "@aws-cdk/aws-cloudformation": "^1.134.0",
+    "@aws-cdk/aws-dynamodb": "^1.134.0",
+    "@aws-cdk/aws-events": "^1.134.0",
+    "@aws-cdk/aws-events-targets": "^1.134.0",
+    "@aws-cdk/aws-iam": "^1.134.0",
+    "@aws-cdk/aws-lambda": "^1.134.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.134.0",
+    "@aws-cdk/aws-s3": "^1.134.0",
+    "@aws-cdk/aws-sns": "^1.134.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.134.0",
+    "@aws-cdk/aws-sqs": "^1.134.0",
+    "@aws-cdk/core": "^1.134.0",
+    "@aws-cdk/custom-resources": "^1.134.0",
+    "fs": "^0.0.2",
+    "path": "^0.12.7"
   },
   "bundledDependencies": [],
   "license": "Apache-2.0",

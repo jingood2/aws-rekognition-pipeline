@@ -21,7 +21,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.129.0",
+      "version": "^1.134.0",
       "type": "build"
     },
     {
@@ -78,12 +78,80 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.129.0",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-cloudformation",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-dynamodb",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-events-targets",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-events",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-iam",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-lambda-event-sources",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-lambda",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-s3",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-sns-subscriptions",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-sns",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-sqs",
+      "version": "^1.134.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.129.0",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/custom-resources",
+      "version": "^1.134.0",
+      "type": "runtime"
+    },
+    {
+      "name": "fs",
+      "type": "runtime"
+    },
+    {
+      "name": "path",
       "type": "runtime"
     }
   ],
