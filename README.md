@@ -63,9 +63,11 @@ npx projen deploy
 ...
 ...
 }}]
+```
 
 ## Clean Up
 Run "npx projen destroy" to destroy stack
+
 ```
 npx projen destroy
 ```
