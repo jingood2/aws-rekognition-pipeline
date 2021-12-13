@@ -53,6 +53,21 @@ def callRekognition(bucketName, objectName, apiName):
                 }
             }
         )
+    elif (apiName == "ppe"):
+        response = rekognition.detect_protective_equipment(
+            Image={
+                'S3Object': {
+                    'Bucket': bucketName,
+                    'Name': objectName
+                }
+            },
+            SummarizationAttributes={
+              'MinConfidence': ...,
+              'RequiredEquipmentTypes': [
+                  'FACE_COVER'|'HAND_COVER'|'HEAD_COVER',
+              ]
+            }
+        )
     else:
         response = rekognition.detect_labels(
             Image={

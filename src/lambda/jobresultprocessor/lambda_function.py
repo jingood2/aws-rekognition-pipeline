@@ -22,7 +22,7 @@ def getJobResults(api, jobId):
         response = client.get_content_moderation(JobId=jobId)
     elif (api == "StartCelebrityRecognition"):
         response = client.get_celebrity_recognition(JobId=jobId)
-    
+
     pages.append(response)
     print("Resultset received: {}".format(len(pages)))
     nextToken = None

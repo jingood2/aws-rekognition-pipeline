@@ -24,6 +24,7 @@ def lambda_handler(event, context):
         s3.Object(os.environ['CONTENT_BUCKET'], "moderation/").put()
         s3.Object(os.environ['CONTENT_BUCKET'], "text/").put()
         s3.Object(os.environ['CONTENT_BUCKET'], "celebrities/").put()
+        s3.Object(os.environ['CONTENT_BUCKET'], "ppe/").put()
 
         #creating folders in existing content bucket
         s3.Object(os.environ['EXISTING_CONTENT_BUCKET'], "labels/").put()
